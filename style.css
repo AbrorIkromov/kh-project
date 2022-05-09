@@ -183,13 +183,75 @@ body {
     margin-top: -50px;
 }
 
- .check {
-    width: 200px;
-    height: 200px;
-    margin-left: 300px;
-    background-color: cornflowerblue;
-    position: relative;
+.addition-to-welcome {
+    width: 1150px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+.skew-box-container {
+    width: 330px;
+    height: 330px;
+    background-color: rgb(34, 42, 94);
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+    border-radius: 30px;
+    margin-top: 100px;
+}
+
+.skew-box-content {
+    width: 260px;
+    position: relative;
+    top: -220px;
+    left: 30px;
+}
+
+.skew-box-content p {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.skew-box-title {
+    color: rgb(255, 204, 0);
+    font-size: 21px ;
+    margin-bottom: 15px;
+    width: 200px;
+}
+
+.skew-img-1 {
+    width: 170px;
+    display: inline;
+    position: absolute;
+    z-index: 1;
+    margin-left: 120px;
+    margin-top: 20px;
+
+}
+.skew-img-2 {
+    width: 180px;
+    display: inline;
+    position: absolute;
+    z-index: 1;
+    margin-left: 115px;
+    margin-top: 5px;
+
+}
+.skew-img-3 {
+    width: 170px;
+    display: inline;
+    position: absolute;
+    z-index: 1;
+    margin-left: 130px;
+    margin-top: 0px;
+
+}
+
 
 /* SERVICES */
 .services-container {
@@ -242,9 +304,9 @@ body {
     box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 24px;
     background-color: #ffffff;
     -webkit-transform: rotate(-45deg);
-   -moz-transform: rotate(-45deg);
-   -ms-transform: rotate(-45deg);
-   -o-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
    transform: rotate(-45deg);
    border-radius: 20px;
 }
