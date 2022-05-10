@@ -159,12 +159,15 @@ body {
 .welcome-text {
     width: 50%;
     margin-top: -80px;
-    color: #666;
     padding: 30px 40px 0 0;
+}
+
+.section-text {
+    color: #666;
     font-size: 18px;
 }
 
-.welcome-text h1 {
+.section-title {
     border-left: solid 6px #366464;
     font-size: 50px;
     padding-left: 20px;
@@ -185,6 +188,7 @@ body {
 
 .addition-to-welcome {
     width: 1150px;
+    height: 530px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -252,6 +256,31 @@ body {
 
 }
 
+/* OUR MISSION */
+.mission-container {
+    width: 1100px;
+    height: 490px;
+    display: flex;
+    margin: auto;
+}
+
+.mission-img {
+    width: 185%;
+    position: relative;
+    top: -45px;
+}
+
+.mission-img > img {
+    width: 100%;
+    height: 100%;
+}
+
+.mission-text {
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 20px;
+}
+
 
 /* SERVICES */
 .services-container {
@@ -266,7 +295,7 @@ body {
     width: 100%;
     height: 70%;
     /* background-color: #6ca3a3; */
-    background-color: rgb(164, 55, 50);
+    background-color:  rgb(34, 42, 94);
     border-radius: 35px 35px 0 0;
 }
 
@@ -323,7 +352,7 @@ body {
 
 .services-icon {
     font-size: 30px;
-    color: #366464;
+    color: #a43732;
     padding-bottom: 7px;
 }
 
@@ -332,7 +361,7 @@ body {
     color: #a43732;
 }
 .services-title {
-    color: #fff;
+    color: rgb(255, 204, 0);
     font-size: 45px;
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Koulen', cursive;
