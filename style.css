@@ -17,6 +17,23 @@ body {
     width: 100vw;
     overflow-x:hidden;
 }
+
+.section-text {
+    color: #666;
+    font-size: 18px;
+}
+
+.section-title {
+    border-left: solid 6px #366464;
+    font-size: 40px;
+    padding-left: 20px;
+    color: #a43732;
+    margin-bottom: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 1.2px; 
+}
+
 .navbar {
     padding-left: 50px;
 }
@@ -30,7 +47,6 @@ body {
     font-weight: 700;
     background-color: #366464;
     border: none;
-    /* clip-path: polygon(10% 0%, 100% 0, 90% 100%, 0% 100%); */
     -webkit-transform: skew(-20deg);
 	-moz-transform: skew(-20deg); 
 	-o-transform: skew(-20deg); 
@@ -154,29 +170,13 @@ body {
     height: 400px;
     display: flex;
     margin: auto;
+    /* background-color: #ecf3ff; */
 }
 
 .welcome-text {
     width: 50%;
     margin-top: -80px;
     padding: 30px 40px 0 0;
-}
-
-.section-text {
-    color: #666;
-    font-size: 18px;
-}
-
-.section-title {
-    border-left: solid 6px #366464;
-    font-size: 50px;
-    padding-left: 20px;
-    color: #a43732;
-    margin-bottom: 40px;
-    font-family: 'Fjalla One', sans-serif;
-    font-family: 'Koulen', cursive;
-    letter-spacing: 1.2px;
-    
 }
 
 .welcome-img img {
@@ -352,7 +352,7 @@ body {
 
 .services-icon {
     font-size: 30px;
-    color: #a43732;
+    color: rgb(34, 42, 94);
     padding-bottom: 7px;
 }
 
@@ -379,3 +379,149 @@ body {
 
 }
 
+/* ABOUT US */
+.about-us-container {
+    width: 1100px;
+    height: 490px;
+    display: flex;
+    margin: auto;
+}
+
+.about-us-img {
+    width: 185%;
+    position: relative;
+    top: -85px;
+    margin-left: 60px;
+}
+
+.about-us-img > img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-us-text {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+/* FAQ AND FORM */
+.faq-and-form-container {
+    width: 1160px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+}
+/* FAQ */
+
+.faq{
+    width: 50%;
+}
+/* Accordion */
+
+.accordion-header {
+    box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 24px;
+    border-radius: 20px;
+}
+.accordion-header button.collapsed {
+    background: #ffffff;
+    box-shadow: none;
+    color: #333;
+    font-weight: 500;
+    border-left: solid 5px #366464;
+    
+}
+.accordion-header button.collapsed::after {
+    display: none;
+}
+
+.accordion-header button:not(.collapsed)::after {
+    display: none;
+}
+
+.accordion-header button:not(.collapsed) {
+    background: #366464;
+    border-left: solid 5px #366464;
+    border: none;
+    box-shadow: none;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+div.accordion-body {
+    /* background-color: #305858; */
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 24px;
+    margin: 15px 0;
+    width: 100%;
+}
+#plus-1 {
+    position: relative;
+    right: -291px;
+}
+#plus-2 {
+    position: relative;
+    right: -200px;
+}
+#plus-3 {
+    position: relative;
+    right: -1px;
+}
+#plus-4 {
+    position: relative;
+    right: -200px;
+}
+#plus-5 {
+    position: relative;
+    right: -200px;
+}
+
+/* FORM */
+.form {
+    width: 50%;
+    margin-left: 80px;
+}
+input {
+    border: solid 1px rgb(162, 162, 162);
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+.line-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#name {
+    width: 240px;
+}
+
+#email {
+    width: 280px;
+}
+
+#number {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+}
+
+form button {
+    padding: 10px 25px;
+    background-color: #366464;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    display: block;
+    margin-top: 20px; 
+}
+
+form {
+    padding: 25px 0;
+}
