@@ -64,6 +64,7 @@ body {
 .btn-apply-nav:hover {
     color: #fff;
     background-color: #3e7777;
+    cursor: pointer;
 }
 
 .btn-apply-nav:active {
@@ -157,6 +158,7 @@ body {
 .btn-apply:hover {
     color: #fff;
     background-color: #3e7777;
+    cursor: pointer;
 }
 
 .btn-apply:active {
@@ -273,12 +275,125 @@ body {
 /* SERVICES */
 .services-container {
     width: 1160px;
-    height:500px;
-    /* background: #ddd; */
+    height:560px;
     margin: auto;
     border-radius: 40px 40px 0 0;
 }
 
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+    border: none;
+    border-radius: 30px;
+}
+.card-img-1 {
+    height: 350px;
+    width: 240px;
+    box-shadow: 5px 5px 20px #333;
+    background-image: url(./IMG/card-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+.card-img-2 {
+    height: 350px;
+    width: 240px;
+    box-shadow: 5px 5px 20px #333;
+    background-image: url(./IMG/card-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+.card-img-3 {
+    height: 350px;
+    width: 240px;
+    box-shadow: 5px 5px 20px #333;
+    background-image: url(./IMG/card-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+.card-img-4 {
+    height: 350px;
+    width: 240px;
+    box-shadow: 5px 5px 20px #333;
+    background-image: url(./IMG/card-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+
+.card-content {
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0px;
+    background: rgba(208, 44, 15, 0.5);
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h5 {
+    font-size: 18px;
+}
+
+.card-content p {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card-img-1:hover {
+    cursor: pointer;
+    background-image:  linear-gradient(to bottom, rgba(138, 52, 52, 0.2),rgba(0, 0, 0, 0.86)), url(./IMG/card-1.jpg);
+    outline: #000;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.card-img-2:hover {
+    cursor: pointer;
+    background-image:  linear-gradient(to bottom, rgba(138, 52, 52, 0.2),rgba(0, 0, 0, 0.86)), url(./IMG/card-2.jpg);
+    outline: #000;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.card-img-3:hover {
+    cursor: pointer;
+    background-image:  linear-gradient(to bottom, rgba(138, 52, 52, 0.2),rgba(0, 0, 0, 0.86)), url(./IMG/card-3.jpg);
+    outline: #000;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.card-img-4:hover {
+    cursor: pointer;
+    background-image:  linear-gradient(to bottom, rgba(138, 52, 52, 0.2),rgba(0, 0, 0, 0.86)), url(./IMG/card-4.jpg);
+    outline: #000;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.card:hover .card-content p {
+    visibility: visible;
+    opacity: 1;
+}
+
+.card:hover .card-content {
+    height: 200px;
+    transition: 0.5s;
+    background-color: rgb(53, 95, 81);
+    width: 101%;
+    margin-left: -1.4px;
+}
 
 /* ABOUT US */
 .about-us-container {
@@ -498,4 +613,97 @@ form {
     background-size: contain;
     background-position: center;
     margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* Employment Page */
+
+.employ-heading {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 30px;
+}
+
+.employ-section-title {
+    font-size: 35px;
+    color: #333;
+    font-weight: 700;
+}
+
+.employ-sub-title {
+    font-size: 16px;
+    letter-spacing: 1.1px;
+    color: #555;
+}
+
+.employ-heading h3 {
+    font-size: 25px;
+    color: #444;
+    font-weight: 650;
+    margin-top: 30px;
+}
+
+.requirements {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    color: #222;
+    font-size: 18px;
+}
+
+.requirement-details {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-icon {
+    width: 90px;
+    height: 90px;
+    /* border: solid 4px #366464;; */
+    border: solid 4px #a43732;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-icon {
+    width: 90px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.fa-suitcase, .fa-truck {
+    color: #a43732;;
+}
+
+.comp-title, .lease-title {
+    text-align: center;
+    border-bottom: solid 3px #366464;
+    margin: 20px 0;
+    padding-bottom: 10px;
+}
+
+.company-drivers, .lease-drivers {
+    width: 450px;
+}
+
+.comp-list, .lease-list p {
+    font-weight: 700;
+    color: #333;
+    line-height: 15px;
 }
