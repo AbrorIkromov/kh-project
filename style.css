@@ -49,15 +49,15 @@ body {
     font-weight: 700;
     background-color: #366464;
     border: none;
-    -webkit-transform: skew(-20deg);
+    /* -webkit-transform: skew(-20deg);
 	-moz-transform: skew(-20deg); 
 	-o-transform: skew(-20deg); 
-    transform: skew(-20deg);
-    border-radius: 10px;
+    transform: skew(-20deg); */
+    border-radius: 30px;
     color: #fff;
     text-decoration: none;
     position: relative;
-    top: 4px;
+    top: 8px;
     
 }
 
@@ -138,17 +138,16 @@ body {
 .btn-apply {
     width: 250px;
     text-align: center;
-    padding: 10px 0px;
-    font-size: 21px;
+    padding: 10px 35px;
+    font-size: 23px;
     font-weight: 800;
     background-color: #366464;
-    -webkit-transform: skew(-20deg);
+    /* -webkit-transform: skew(-20deg);
 	-moz-transform: skew(-20deg); 
-	-o-transform: skew(-20deg); 
+	-o-transform: skew(-20deg);  */
     transform: skew(-20);
     border: none;
-    /* clip-path: polygon(7% 0%, 100% 0, 93% 100%, 0% 100%); */
-    border-radius: 10px;
+    border-radius: 30px;
     color: #fff;
     text-decoration: none;
     position: relative;
@@ -625,6 +624,24 @@ form {
 
 /* Employment Page */
 
+.employ-l-page-content {
+    position: absolute; 
+    top: 30vh;
+    left: 32vw;
+}
+
+.employ-l-page-content h2 {
+    width: 550px;
+    height: 200px;
+    color: #fff;
+    font-size: 100px;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    margin-bottom: 45px;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Koulen', cursive;
+}
+
 .employ-heading {
     width: 700px;
     margin: auto;
@@ -664,9 +681,18 @@ form {
 
 .requirement-details {
     width: 1000px;
+    /* height: 800px; */
     margin: auto;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.html-tick > .fa-check {
+    font-size: 18px;
+    color: #a43732;
+    font-weight: bolder;
+    padding-right: 7px;
 }
 
 .title-icon {
@@ -688,7 +714,7 @@ form {
 
 
 .fa-suitcase, .fa-truck {
-    color: #a43732;;
+    color: #a43732;
 }
 
 .comp-title, .lease-title {
@@ -700,10 +726,72 @@ form {
 
 .company-drivers, .lease-drivers {
     width: 450px;
+    
 }
 
 .comp-list, .lease-list p {
     font-weight: 700;
-    color: #333;
+    color: #555;
     line-height: 15px;
+}
+.comp-list, .lease-list  {
+    height: 380px;
+    border-bottom: solid 3px #366464;
+    padding-bottom: 30px;
+}
+
+.fa-money-bill-wave {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #a43732;
+}
+
+.pay {
+    margin-top: 30px;
+    font-weight: 700;
+    color: #555;
+    font-size: 18px;
+    border-bottom: solid 3px #366464;
+}
+
+.pay  h6 {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    color: #333;
+}
+
+.equipment {
+    margin-top: 30px;
+    font-weight: 700;
+    color: #555;
+    font-size: 18px;
+}
+
+.equipment h6 {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    color: #333;
+}
+
+.fa-truck-front {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #a43732;
+}
+
+.lease-equipment {
+    margin-top: 30px;
+    font-weight: 700;
+    color: #555;
+    font-size: 18px;
+    border-bottom: solid 3px #366464;   
+}
+
+.lease-equipment h6 {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    color: #333;
 }
