@@ -55,7 +55,7 @@
                           <a href="#contact-us" class="nav-link custom-color-4" id='custom-color'>Contact Us</a>
                       </li>
                       <li class="nav-item">
-                          <div href="#form" class="btn-apply-nav" >Apply to Drive</div>
+                          <a href="#form" class="btn-apply-nav" >Apply to Drive</a>
                       </li>
                           </ul>
                   </div>
@@ -130,7 +130,101 @@
         </div>
     </div>
     </div>
-
+    <!-- Employment -->
+    <div class="employment-application">
+        <h2 class="application-title">TO BE COMPLETED BY THE DRIVER</h2>
+        <form action="" class="employment-form">
+            <div class="indiv-form" id="select">
+                <label for="email">Applying for<span>*</span></label>
+                <select name="apply-for" required id="apply-for" >
+                    <option disabled selected >Choose type of application</option>
+                    <option value="Team Lease Drivers">Team Lease Drivers</option>
+                    <option value="Solo Company Drivers">Solo Company Drivers</option>
+                    <option   lue="Team Company Drivers">Team Company Drivers</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <div class="indiv-form">
+                    <label for="f-name">First Name<span>*</span></label>
+                    <input type="text" required>
+                </div>
+                <div class="indiv-form">
+                    <label for="l-name">Last Name<span>*</span></label>
+                    <input type="text" required>
+                </div>
+                <div class="indiv-form">
+                    <label for="email">Email<span>*</span></label>
+                    <input type="email" required>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="indiv-form">
+                    <label for="f-name">Phone Number<span>*</span></label>
+                    <input type="text" required placeholder="+1(__)-___-____">
+                </div>
+                <div class="indiv-form">
+                    <label for="f-name">Date of Birth<span>*</span></label>
+                    <input type="date" required>
+                </div>
+                <div class="indiv-form" id="state-zip">
+                    <div class="sub-row">
+                        <label for="f-name">State/Province<span>*</span></label>
+                        <input type="text" id="state" required placeholder="FL">
+                    </div>
+                    <div class="sub-row">
+                        <label for="f-name">Zip/Postal<span>*</span></label>
+                        <input type="text" id="zip" required placeholder="123456">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="indiv-form">
+                    <label for="f-name">City<span>*</span></label>
+                    <input type="text" required>
+                </div>
+                <div class="indiv-form">
+                    <label for="f-name">Address<span>*</span></label>
+                    <input id="address" type="text" required>
+                </div>
+                <div class="indiv-form">
+                    <label for="f-name">CDL-A experience<span>*</span></label>
+                    <select name="apply-for" required id="cdl" >
+                        <option disabled selected ></option>
+                        <option value="none">None</option>
+                        <option value="0-5-months">0 - 5 Months</option>
+                        <option   lue="1 -2 years">1 - 2 Years</option>
+                        <option   lue="2 - 5 years">2 - 5 Years</option>
+                        <option   lue="5+ years">5+ Years</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="indiv-form">
+                    <label for="f-name">CDL number<span>*</span></label>
+                    <input type="text" required>
+                </div>
+                <div class="indiv-form">
+                    <label for="f-name">CDL State<span>*</span></label>
+                    <input type="text" required>
+                </div>
+                <div class="indiv-form" id="expiration-ssn">
+                    <div class="sub-row">
+                        <label for="f-name">CLD Expiration<span>*</span></label>
+                        <input type="date" id="expiration" required placeholder="FL">
+                    </div>
+                    <div class="sub-row">
+                        <label for="f-name">SSN Number<span>*</span></label>
+                        <input type="text" id="ssn" required placeholder="0123456">
+                    </div>
+                </div>
+            </div>
+            
+            
+        </form>
+    </div>
 
 <!-- FOOTER -->
 
@@ -162,9 +256,9 @@
 
   <div class="media">
     <div class="logo"></div>
-    <h5>Facebook</h5>
-    <h5>Instagram</h5>
-    <h5>Telegram</h5>
+    <h5><i class="fa-brands fa-facebook"></i> Facebook</h5>
+    <h5><i class="fa-brands fa-instagram"></i> Instagram</h5>
+    <h5><i class="fa-brands fa-telegram"></i> Telegram</h5>
   </div>
 </div>
 </div>

@@ -795,3 +795,95 @@ form {
     display: inline-block;
     color: #333;
 }
+
+/* EMPLOYMENT APPLICATION */
+.employment-application {
+    width: 100vw;
+    height: 600px;
+    background-color: rgb(239, 239, 239);
+}
+.employment-form {
+    width: 1100px;
+    margin: auto;
+}
+.application-title {
+    margin: 30px;
+    padding-top: 30px;
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-family: 'Koulen', 'cursive';
+    font-weight: 900;
+    color: #5d5d5d;
+}
+.indiv-form > label {
+    display: block;
+    color: #555
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.indiv-form input {
+    width: 300px;
+}
+
+select {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+#select {
+margin: 0 0 30px 0px;
+}
+
+#state-zip {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sub-row {
+    display: flex;
+    flex-direction: column;
+}
+
+#state {
+    width: 170px;
+}
+
+#zip {
+    width: 100px;
+}
+
+#cdl {
+    width: 300px;
+    padding: 10px;
+}
+
+#expiration-ssn {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sub-row {
+    display: flex;
+    flex-direction: column;
+}
+
+#expiration {
+    width: 155px;
+}
+
+#ssn {
+    width: 125px;
+}
+
+label span {
+    color: #cd1e15;
+    font-weight: 800;
+}
