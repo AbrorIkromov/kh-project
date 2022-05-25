@@ -22,6 +22,9 @@ body {
 .section-text {
     color: #666;
     font-size: 18px;
+    text-align: justify;
+    line-height: 32px;
+    letter-spacing: 0.4px;
 }
 
 .section-title {
@@ -41,7 +44,6 @@ body {
 .navbar-nav {
     margin-left: 300px;
 }
-
 
 .btn-apply-nav {
     padding: 7px 25px;
@@ -80,7 +82,7 @@ body {
 }
 
 .navbar-light {
-    box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 24px;
+    box-shadow: rgba(50, 50, 50, 0.5) 0px 3px 10px;
 }
 
 #custom-color {
@@ -135,6 +137,7 @@ body {
     color: #a43732;
 }
 
+
 .btn-apply {
     width: 250px;
     text-align: center;
@@ -144,8 +147,8 @@ body {
     background-color: #366464;
     /* -webkit-transform: skew(-20deg);
 	-moz-transform: skew(-20deg); 
-	-o-transform: skew(-20deg);  */
-    transform: skew(-20);
+	-o-transform: skew(-20deg);  
+    transform: skew(-20);*/
     border: none;
     border-radius: 30px;
     color: #fff;
@@ -169,7 +172,7 @@ body {
 }
 
 .decor {
-    width: 400px;
+    width: 380px;
     margin: auto;
     position: relative;
     top: -110px;
@@ -179,7 +182,7 @@ body {
     width: 100%;
 }
 
-
+/* WELCOME */
 .welcome {
     width: 1160px;
     height: 400px;
@@ -202,7 +205,7 @@ body {
     height: 120%;
     width: 100%;
     padding-left: 70px;
-    margin-top: -100px;
+    margin-top: -80px;
 }
 
 .addition-to-welcome {
@@ -220,7 +223,6 @@ body {
     padding: 10px 20px;
     border-radius: 30px;
     /* box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 24px; */
-
 }
 .add-to-wel-title {
     /* color: #444; */
@@ -396,7 +398,7 @@ body {
 
 /* ABOUT US */
 .about-us-container {
-    width: 1100px;
+    width: 1160px;
     height: 490px;
     display: flex;
     margin: auto;
@@ -799,7 +801,7 @@ form {
 /* EMPLOYMENT APPLICATION */
 .employment-application {
     width: 100vw;
-    height: 600px;
+    height: 1000px;
     background-color: rgb(239, 239, 239);
 }
 .employment-form {
@@ -887,3 +889,109 @@ label span {
     color: #cd1e15;
     font-weight: 800;
 }
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 1600px) {
+    .section-text {
+        font-size: 20px;
+    }
+    /* NAVBAR */
+    #custom-color {
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    .custom-color-1, .custom-color-2, .custom-color-3, .custom-color-4 {
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    .navbar-nav {
+        margin-left: 400px;
+    }
+    div.container-fluid {
+        width: 1350px;
+        margin: auto;
+    }
+    .btn-apply-nav {
+        font-size: 20px;
+    }
+    /* LANDING PAGE */
+    .landing-page {
+        height: 80vh;
+    }
+    .l-page-content {
+        text-align: center;
+        top: 22vh;
+        left: 27vw;
+    }
+    .l-page-content h2 {
+        width: 800px;
+        margin-bottom:20px;
+        padding-bottom: 0;
+        height: 190px;
+        font-size: 75px;
+        letter-spacing: 4px;
+    }
+    #beyond {
+        display: inline;
+    }
+    .l-page-content span {
+        display: block;
+    }
+    .btn-apply {
+        font-size: 30px;
+        padding: 13px 60px;
+    }
+    .decor {
+        width: 470px;
+        top: -130px;
+    }
+    .welcome {
+        width: 1260px;
+    }
+    .welcome-img img {
+        margin-top: -60px;
+    }
+    .box {
+        width: 32%;
+    }
+    .addition-to-welcome {
+        font-size: 18px;
+        width: 1260px;
+    }
+    /* MISSION */
+    .mission-container {
+        width: 1260px;
+    }
+    .mission-text {
+        padding-right: 0;
+    }
+    /* SERVICES */
+    .services-container {
+        width: 1260px;
+    }
+    .card-container {
+        justify-content: space-between;
+    }
+    /* ABOUT US */
+    .about-us-container {
+        width: 1260px;
+    }
+    .about-us-img {
+        top: -70px;
+    }
+    .about-us-img > img {
+        width: 110%;
+        height: 110%;
+    }
+    /* FAQ AND FORM */
+    .faq-and-form-container {
+        width: 1260px;
+    }
+    .form {
+        margin-left: 100px;
+    }
+}   
+
+
+@media screen and (min-width: 1800px) {}
