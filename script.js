@@ -17,4 +17,30 @@
         }
     });
 
+    // OWL 
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    autoplay:true,
+    slideTransition: 'linear',
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        770:{
+            items:3
+        },
+        1000:{
+            items:4
+        },
+        1200:{
+            items:5
+        }
+    }
+})
+
 
