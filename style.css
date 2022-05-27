@@ -103,7 +103,7 @@ body {
     width: 100vw;
     height: 85vh;
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.1)), url(./IMG/l-page-truck1.jpg); */
-    background-image:  linear-gradient(to left, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.86)), url(./IMG/road2.jpg);
+    background-image:  linear-gradient(to left, rgba(0, 0, 0, 0.67),rgba(0, 0, 0, 0.77)), url(./IMG/road2.jpg);
     outline: #000;
     background-repeat: no-repeat;
     background-position: center;
@@ -128,9 +128,6 @@ body {
     margin-bottom: 45px;
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Koulen', cursive;
-    /* position: relative; 
-    top: 30vh;
-    left: 2vw; */
 }
 
 .l-page-content h2 span {
@@ -145,10 +142,6 @@ body {
     font-size: 23px;
     font-weight: 800;
     background-color: #366464;
-    /* -webkit-transform: skew(-20deg);
-	-moz-transform: skew(-20deg); 
-	-o-transform: skew(-20deg);  
-    transform: skew(-20);*/
     border: none;
     border-radius: 30px;
     color: #fff;
@@ -188,7 +181,6 @@ body {
     height: 400px;
     display: flex;
     margin: auto;
-    /* background-color: #ecf3ff; */
 }
 
 .welcome-text {
@@ -249,7 +241,7 @@ body {
 
 /* OUR MISSION */
 .mission-container {
-    width: 1100px;
+    width: 1160px;
     height: 490px;
     display: flex;
     margin: auto;
@@ -278,7 +270,7 @@ body {
     width: 1160px;
     height:560px;
     margin: auto;
-    border-radius: 40px 40px 0 0;
+
 }
 
 .card-container {
@@ -447,13 +439,13 @@ body {
     border-left: solid 5px #366464;
     
 }
-.accordion-header button.collapsed::after {
+/* .accordion-header button.collapsed::after {
     display: none;
 }
 
 .accordion-header button:not(.collapsed)::after {
     display: none;
-}
+} */
 
 .accordion-header button:not(.collapsed) {
     background: #366464;
@@ -473,23 +465,23 @@ div.accordion-body {
 }
 #plus-1 {
     position: relative;
-    right: -291px;
+    right: -280px;
 }
 #plus-2 {
     position: relative;
-    right: -200px;
+    right: -189px;
 }
 #plus-3 {
     position: relative;
-    right: -1px;
+    right: 1px;
 }
 #plus-4 {
     position: relative;
-    right: -200px;
+    right: -187px;
 }
 #plus-5 {
     position: relative;
-    right: -200px;
+    right: -187px;
 }
 
 /* FORM */
@@ -575,6 +567,10 @@ form {
     flex: 1;
     margin-left: 50px;
 }
+.media h5 {
+    font-size: 16px;
+    padding-bottom: 7px;
+}
 
 .footer-heading {
     font-size: 23px;
@@ -588,6 +584,11 @@ form {
 .footer {
     font-size: 18px;
     font-weight: 600;
+}
+.footer-contact .fa-solid {
+    color: #fff;
+    font-size: 17px;
+    padding-right: 5px;
 }
 
 .links h5 {
@@ -613,7 +614,7 @@ form {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 
@@ -892,7 +893,7 @@ label span {
 
 
 /* RESPONSIVE */
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1599.98px) {
     .section-text {
         font-size: 20px;
     }
@@ -991,7 +992,121 @@ label span {
     .form {
         margin-left: 100px;
     }
+    #plus-1 {
+        position: relative;
+        right: -320px;
+    }
+    #plus-2 {
+        position: relative;
+        right: -228px;
+    }
+    #plus-3 {
+        position: relative;
+        right: -16px;
+    }
+    #plus-4 {
+        position: relative;
+        right: -226px;
+    }
+    #plus-5 {
+        position: relative;
+        right: -226px;
+    }
+
 }   
 
 
 @media screen and (min-width: 1800px) {}
+
+/* decreasing screen sizes */
+@media screen and (max-width: 1199.98px) {
+    .navbar-nav {
+        margin-left: 50px;
+    }
+    .l-page-content h2 {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+    .decor {
+        width: 270px;
+        top: -75px;
+    }
+    .welcome {
+        width: 950px;
+        height: 450px;
+    }
+    .welcome-text {
+        width: 55%;
+    }
+    .welcome-img img {
+        padding-left: 0px;
+        margin-top: -60px;
+    }
+    .addition-to-welcome {
+        width: 950px;
+    }
+    .box {
+        width: 33%;
+    }
+    .mission-container {
+        width: 950px;
+    }
+    .mission-text {
+        width: 48%;
+        padding: 0px;
+    }
+    .mission-img {
+        width: 52%;
+        top: 30px;
+    }
+    .services-container {
+        width: 950px;
+
+    }
+    .card-img-1 {
+        height: 320px;
+        width: 220px;
+    }
+    .card-img-2 {
+        height: 320px;
+        width: 220px;
+    }
+    .card-img-3 {
+        height: 320px;
+        width: 220px;
+    }
+    .card-img-4 {
+        height: 320px;
+        width: 220px;
+    }
+    .about-us-container {
+        width: 950px;
+    }
+    .about-us-img {
+        margin-left: 50px;
+    }
+    .about-us-img > img {
+        width: 102%;
+        height: 102%;
+    }
+    .faq-and-form-container {
+        width: 950px;
+        justify-content: space-between;
+    }
+    .form {
+        margin-left: 45px;
+        padding-right: 8px;
+    }
+    .footer-container {
+        width: 950px;
+        padding: 20px;
+        padding-bottom: 0;
+        margin: 0 10px;
+    }
+    .footer-about-us {
+        flex: 1.6;
+    }
+    .footer-contact {
+        flex: 1.8;
+    }
+}
