@@ -26,7 +26,7 @@ $('.owl-carousel').owlCarousel({
     nav:true,
     responsive:{
         400:{
-            items:2
+            items:1
         },
         600:{
             items:2
