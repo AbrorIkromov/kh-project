@@ -49,6 +49,9 @@ body {
     width: 1160px;
     margin: 0 auto 80px;
 }
+#for-small-screens {
+    display: none;
+}
 
 .navbar {
     padding-left: 50px;
@@ -113,7 +116,7 @@ body {
 
 .landing-page {
     width: 100vw;
-    height: 85vh;
+    height: 90vh;
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.1)), url(./IMG/l-page-truck1.jpg); */
     background-image:  linear-gradient(to left, rgba(0, 0, 0, 0.67),rgba(0, 0, 0, 0.77)), url(./IMG/road2.jpg);
     outline: #000;
@@ -258,6 +261,9 @@ body {
     height: 490px;
     display: flex;
     margin: auto;
+}
+#mission-title {
+    display: block;
 }
 
 .mission-img {
@@ -1105,7 +1111,8 @@ label span {
     }
     .welcome-img img {
         padding-left: 0px;
-        margin-top: -60px;
+        margin-top: -170px;
+        height: 100%;
     }
     .addition-to-welcome {
         width: 950px;
@@ -1177,15 +1184,737 @@ label span {
 }
 
 @media screen and (max-width: 991.98px) {
+    .offcanvas-header {
+        height: 120px;
+        width: 500px;
+        margin-top: 20px;
+    }
+    .custom-color-1, .custom-color-2, .custom-color-3, .custom-color-4 {
+        color: #333;
+    }
+    #custom-color {
+        color: #333;
+    }
+
+    .landing-page {
+        height: 90vh;
+    }
     .welcome {
         width: 700px;
-        height: 800px;
+        height: 1000px;
         margin: auto;
         display: flex;
         flex-direction:column-reverse ;
+        padding: 0;
+        align-items:flex-start;
+    }
+    .welcome-text {
+        margin: 0 auto;
+        height: 43%;
+        width: 100%;
+        padding: 20px;
+        margin-top: -70px;
+    }
+    .welcome-img {
+        margin: 0 auto;
+        padding: 0;
+        height: 53%;
+        width: 90%;
+    }
+    .section-title-try {
+        width: 700px;
+        margin-bottom: 0;
+        margin-left: 60px;
+    }
+    #welcome-title {
+        margin-bottom: -70px;
+    }
+    .welcome-img img {
+        height: 90%;
+        width: 90%;
+        padding-left: 0px;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    .addition-to-welcome {
+        width: 760px;
+        font-size: 15px;
+    }
+    .box.support {
+        display: block;
+    }
+    .mission-container {
+        width: 700px;
+        height: 750px;
+        flex-direction: column;
+    }
+    #mission-title {
+        display: none;
+    }
+    #for-small-screens {
+        display: block;
+    }
+    .mission-img {
+        height: 47%; 
+        width: 100%;
+        margin: 0 auto 60px;
+    }
+    .mission-text {
+        height: 50%; 
+        width: 90%;
+        margin: 0 auto;
+    }
+    #services-title {
+        margin-left: -30px;
+    }
+    .services-container {
+        width: 550px;
+        height: 750px;
+    }
+    .card-container {
+        flex-wrap: wrap;
+    }
+    .card-img-1 {
+        height: 300px;
+        width: 200px;
+    }
+    .card-img-2 {
+        height: 300px;
+        width: 200px;
+    }
+    .card-img-3 {
+        height: 300px;
+        width: 200px;
+        margin-top: 30px;
+    }
+    .card-img-4 {
+        height: 300px;
+        width: 200px;
+        margin-top: 30px;
+    }
+    .card:hover .card-content {
+        width: 100%;
+        height: 215px;
+        margin-left: 0px;
+    }
+    .about-us-container {
+        width: 700px;
+        flex-direction: column-reverse;
+        height: 750px;
+        margin: auto;
+    }
+    .about-us-img {
+        width: 95%;
+        height: 60%;
+        margin-bottom: -60px;
+    }
+    .about-us-content {
+        width: 90%;
+        margin: 0 auto 60px;
+    }
+    #about-us-title {
+        display: none;
+    }
+    .about-us-responsive-title {
+        margin-top: 50px;
+        margin-bottom: -20px;
+    }
+    .faq-and-form-container {
+        flex-direction: column;
+        height: 1000px;
+        width: 630px;
+    }
+    .faq {
+        width: 100%;
+        height: 50%;
+    }
+    .form .section-title {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .form {
+        width: 100%;
+        height: 50%;
+        margin-left: 0;
+        margin-top: 70px;
+    }
+    #name {
+        width: 295px;
+    }
+    
+    #email {
+        width: 295px;
+    }
+    #owl-width {
+        width: 700px;
+        margin: auto;
+        padding-left: 35px;
+    }
+    .footer {
+        height: 480px;
+    }
+    .footer-container {
+        width: 750px;
+        height: 480px;
+        flex-direction: column;
+        padding: 20px 20px 0;
+    }
+    .footer-contact {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .links {
+        margin-left: 0;
+        margin-top: 20px;
+        position: relative;
+        left: 360px;
+        top: -240px;
+        display: inline-block;
+        width: 250px;
+        height: 0;
+    }
+    .media {
+        margin-left: 0;
+        margin-top: 20px;
+        position: relative;
+        left: 500px;
+        top: -270px;
+        width: 230px;
+        padding-left: 20px;
+        height: 0;
+    }
+    .logo {
+        height: 100px;
+        width: 80%;
+        margin-bottom: 30px;
     }
 }
 
-/* @media (max-width: 767.98px) { 
+@media screen and (max-width: 767.98px) { 
+    .offcanvas-header {
+        height: 120px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    .offcanvas-header img {
+        width: 300px;
+    }
+    .custom-color-1, .custom-color-2, .custom-color-3, .custom-color-4 {
+        color: #333;
+        font-size: 18px;
+        font-weight: 600;
+        margin-right: 25px;
+    }
+    #custom-color {
+        color: #333;
+    }
+    .l-page-content h2 {
+        width: 400px;
+    }
+    .welcome {
+        width: 500px;
+        height: 1000px;
+        margin: auto;
+        display: flex;
+        flex-direction:column-reverse ;
+        padding: 0;
+        align-items:flex-start;
+    }
+    .welcome-img {
+        width: 100%;
+    }
+    .section-title-try {
+        width: 500px;
+        margin-bottom: 0;
+        margin-left: 60px;
+    }
+    .welcome-img img {
+        height: 90%;
+        width: 90%;
+        padding-left: 0px;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    .addition-to-welcome {
+        width: 450px;
+        height: 470px;
+        flex-wrap: wrap;
+    }
+    .box {
+        width: 200px;
+        margin: auto;
+        margin-left: -10px;
+    }
+    .add-to-wel-title, .add-to-wel-text, .heading-img {
+        width: 200px;
+    }
+    .support {
+        width: 240px;
+        margin: auto;
+        margin-top: -20px;
+    }
+    
+    .mission-container {
+        width: 500px;
+        height: 750px;
+        flex-direction: column;
+    }
+    #mission-title {
+        display: none;
+    }
+    #for-small-screens {
+        display: block;
+    }
+    .mission-img {
+        height: 47%; 
+        width: 100%;
+        margin: 0 auto 60px;
+    }
+    .mission-text {
+        height: 50%; 
+        width: 90%;
+        margin: 0 auto;
+    }
+    #services-title {
+        width: 500px;
+        margin: auto;
+        margin: 50px;
 
- } */
+    }
+    .about-us-container {
+        width: 500px;
+        flex-direction: column-reverse;
+        height: 750px;
+        margin: auto;
+        margin-top: 80px;
+    }
+    .about-us-img {
+        width: 95%;
+        height: 60%;
+        margin-bottom: -60px;
+    }
+    .about-us-content {
+        width: 90%;
+        margin: 0 auto 60px;
+    }
+    #about-us-title {
+        display: none;
+    }
+    .about-us-responsive-title {
+        margin-top: 70px;
+        margin-bottom: -20px;
+    }
+    .faq-and-form-container {
+        width: 450px;
+    }
+
+    #name {
+        width: 210px;
+    }
+    
+    #email {
+        width: 210px;
+    }
+    #owl-width {
+        width: 500px;
+        margin: auto;
+        padding-left: 55px;
+    }
+    .footer {
+        height: 730px;
+        padding-top: 20px;
+    }
+    .footer-container {
+        width: 500px;
+        height: 710px;
+        flex-direction: column;
+        padding: 20px 20px 0;
+    }
+    .footer-text {
+        text-align: justify;
+    }
+    .footer-contact {
+        margin-left: 0;
+        margin-top: 30px;
+        height: 25%;
+    }
+    .links {
+        margin-left: 0;
+        margin-top: 70px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        display: block;
+        width: 250px;
+        height: 25%;
+    }
+    .media {
+        margin-left: 0;
+        margin-top: 20px;
+        position: relative;
+        left: 230px;
+        top: -188px;
+        width: 230px;
+        padding-left: 0px;
+        display: block;
+        height: 0;
+    }
+    .logo {
+        height: 100px;
+        width: 80%;
+        margin-bottom: 30px;
+
+    }
+    .offcanvas-header img {
+        width: 170px;
+    }
+}
+
+ @media screen and (max-width: 575.98px) { 
+    .offcanvas-header {
+        height: 70px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    #custom-color {
+        color: #333;
+        margin-left: -30px;
+    }
+    .custom-color-1, .custom-color-2, .custom-color-3, .custom-color-4 {
+        color: #333;
+        margin-left: -30px;
+    }
+    .btn-apply-nav {
+        margin-left: -30px;
+    }
+    .l-page-content {
+        top: 25vh;
+        left: 14vw;
+    }
+    .landing-page h2 {
+        width: 340px;
+        font-size: 45px;
+        margin-bottom: 0;
+        height: 180px;
+    }
+    .btn-apply {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .welcome {
+        width: 400px;
+        height: 1000px;
+    }
+    .welcome-img {
+        height: 350px;
+        position: relative;
+        top: -150px;
+    }
+    .welcome-img img {
+        height: 100%;
+        /* margin-top: -200px; */
+    }
+    .welcome-text {
+        margin-top: -150px;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    .section-title-try {
+        width: 350px;
+        margin-left: 20px;
+        margin-top: -20px;
+        font-size: 28px;
+    }
+    .addition-to-welcome {
+        width: 400px;
+        height: 800px;
+        margin: auto;
+    }
+    .box {
+        width: 300px;
+        margin: 10px auto;
+        box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 24px;
+    }
+    .add-to-wel-title, .add-to-wel-text, .heading-img {
+        width: 250px;
+    }
+    .mission-container {
+        width: 400px;
+        height: 820px;
+        margin-bottom: 40px;
+    }
+    #services-title {
+        width: 350px;
+        margin-top: 60px;
+        margin-left: 20px;
+        font-size: 28px;
+    }
+    .services-container {
+        width: 400px;
+        height: 1750px;
+    }
+    .card-container {
+        flex-wrap: wrap;
+    }
+    .card-img-1 {
+        height: 370px;
+        width: 300px;
+    }
+    .card-img-2 {
+        height: 370px;
+        width: 300px;
+        margin-top: 40px;
+    }
+    .card-img-3 {
+        height: 370px;
+        width: 300px;
+        margin-top: 30px;
+    }
+    .card-img-4 {
+        height: 370px;
+        width: 300px;
+        margin-top: 30px;
+    }
+    .card:hover .card-content {
+        width: 100%;
+        height: 215px;
+        margin-left: 0px;
+    }
+    .about-us-container {
+        width: 400px;
+    }
+    .about-us-img {
+        margin-left: 0;
+    }
+    .faq-and-form-container {
+        width: 360px;
+        height: 1100px;
+
+    }
+    .section-title {
+        font-size: 28px;
+    }
+    .form .section-title {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .line-1 {
+        flex-direction: column;
+    }
+    #name {
+        display: block;
+        width: 352px;
+        margin-bottom: 20px;
+    }
+    #email {
+        display: block;
+        width: 352px;
+    }
+    .line-2 {
+        margin-bottom: 3px;
+    }
+    .owl-title {
+        font-size: 28px;
+        margin-top: 50px;
+        width: 360px;
+    }
+    #owl-width {
+        width: 400px;
+        padding-left: 30px;
+    }
+    .footer {
+        height: 1030px;
+    }
+    .footer-container {
+        width: 400px;
+        height: 1010px;
+    }
+    .links {
+        margin-top: 20px;
+    }
+    .footer-contact {
+        margin-top: 20px;
+    }
+    .media {
+        left: 0;
+        top: 0;
+        height: 25%;
+
+    }
+
+}
+
+@media screen and (max-width: 410px) { 
+    .offcanvas-header {
+        height: 70px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    #custom-color {
+        color: #333;
+        margin-left: -30px;
+    }
+    .custom-color-1, .custom-color-2, .custom-color-3, .custom-color-4 {
+        color: #333;
+        margin-left: -30px;
+    }
+    .btn-apply-nav {
+        margin-left: -30px;
+    }
+    .l-page-content {
+        top: 25vh;
+        left: 12vw;
+    }
+    .landing-page h2 {
+        width: 300px;
+        font-size: 45px;
+        margin-bottom: 0;
+        height: 180px;
+    }
+    .btn-apply {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .welcome {
+        width: 340px;
+        height: 1000px;
+    }
+    .welcome-img {
+        height: 350px;
+        position: relative;
+        top: -150px;
+    }
+    .welcome-img img {
+        height: 100%;
+        /* margin-top: -200px; */
+    }
+    .welcome-text {
+        margin-top: -150px;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    .section-title-try {
+        width: 300px;
+        margin-left: 15px;
+        margin-top: -20px;
+        font-size: 28px;
+    }
+    .addition-to-welcome {
+        width: 340px;
+        height: 800px;
+        margin: auto;
+        margin-top: 0px;
+    }
+    .box {
+        width: 300px;
+        margin: 10px auto;
+        box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 24px;
+    }
+    .add-to-wel-title, .add-to-wel-text, .heading-img {
+        width: 250px;
+    }
+    .mission-container {
+        width: 340px;
+        height: 900px;
+        margin-bottom: 80px;
+    }
+    #services-title {
+        width: 300px;
+        margin-top: 60px;
+        margin-left: 15px;
+        font-size: 28px;
+    }
+    .services-container {
+        width: 340px;
+        height: 1750px;
+    }
+    .card-container {
+        flex-wrap: wrap;
+    }
+    .card-img-1 {
+        height: 370px;
+        width: 300px;
+    }
+    .card-img-2 {
+        height: 370px;
+        width: 300px;
+        margin-top: 40px;
+    }
+    .card-img-3 {
+        height: 370px;
+        width: 300px;
+        margin-top: 30px;
+    }
+    .card-img-4 {
+        height: 370px;
+        width: 300px;
+        margin-top: 30px;
+    }
+    .card:hover .card-content {
+        width: 100%;
+        height: 215px;
+        margin-left: 0px;
+    }
+    .about-us-container {
+        width: 340px;
+    }
+    .about-us-img {
+        margin-left: 0;
+    }
+    .faq-and-form-container {
+        width: 310px;
+        height: 1100px;
+
+    }
+    .section-title {
+        font-size: 28px;
+    }
+    .form .section-title {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .line-1 {
+        flex-direction: column;
+    }
+    #name {
+        display: block;
+        width: 302px;
+        margin-bottom: 20px;
+    }
+    #email {
+        display: block;
+        width: 302px;
+    }
+    .line-2 {
+        margin-bottom: 3px;
+    }
+    .owl-title {
+        font-size: 28px;
+        margin-top: 90px;
+        width: 340px;
+    }
+    #owl-width {
+        width: 350px;
+        padding-left: 10px;
+    }
+    .footer {
+        height: 1090px;
+    }
+    .footer-container {
+        width: 340px;
+        height: 1070px;
+    }
+    .links {
+        margin-top: 20px;
+    }
+    .footer-contact {
+        margin-top: 20px;
+    }
+    .media {
+        left: 0;
+        top: 0;
+        height: 25%;
+
+    }
+
+}
