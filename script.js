@@ -25,6 +25,9 @@ $('.owl-carousel').owlCarousel({
     margin:10,
     nav:true,
     responsive:{
+        300:{
+            items:1
+        },
         400:{
             items:1
         },

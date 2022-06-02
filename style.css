@@ -1725,9 +1725,10 @@ label span {
     #owl-width {
         width: 400px;
         padding-left: 30px;
+        margin: auto;
     }
-    .item {
-        width: 100px;
+    .item{
+        padding-left: 90px;
     }
     .footer {
         height: 1030px;
@@ -1904,9 +1905,6 @@ label span {
     #owl-width {
         width: 350px;
         padding-left: 10px;
-    }
-    .item {
-        width: 100px;
     }
     .footer {
         height: 1090px;
