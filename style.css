@@ -59,6 +59,12 @@ body {
 .navbar-nav {
     margin-left: 300px;
 }
+#nav-logo {
+    width: 130px;
+    height: 40px;
+    position: relative;
+    visibility: hidden;
+}
 
 .btn-apply-nav {
     padding: 7px 25px;
@@ -142,7 +148,7 @@ body {
     color: #ffffff;
     margin-bottom: 45px;
     font-family: 'Fjalla One', sans-serif;
-    font-family: 'Koulen', cursive;
+    font-family: 'Koulen';
 }
 
 .l-page-content h2 span {
@@ -556,8 +562,9 @@ form {
 
 /* partners */
 #owl-width {
-    width: 95vw;
+    width: 1146px;
     height: 220px;
+    padding-left: 60px;
 }
 .owl-title {
     border-left: solid 6px #366464;
@@ -781,8 +788,7 @@ div.owl-dots {
 }
 
 .company-drivers, .lease-drivers {
-    width: 450px;
-    
+    width: 450px;  
 }
 
 .comp-list, .lease-list p {
@@ -1080,11 +1086,31 @@ label span {
         position: relative;
         right: -226px;
     }
-
+    #owl-width {
+        width: 1260px;
+        margin: auto;
+        padding-left: 40px;
+    }
+    /* EMPLOYMENT */
+    .employ-l-page-content {
+       top: 32vh;
+       left: 38vw;
+    }
+    .requirement-details {
+        width: 1100px;
+    }
 }   
 
 
-@media screen and (min-width: 1800px) {}
+@media screen and (min-width: 1800px) {
+    .l-page-content {
+        top: 24vh;
+        left: 29vw;
+    }
+    #owl-width {
+        padding-left: 70px;
+    }
+}
 
 /* decreasing screen sizes */
 @media screen and (max-width: 1199.98px) {
@@ -1174,12 +1200,32 @@ label span {
         padding: 20px;
         padding-bottom: 0;
         margin: 0 10px;
+        margin: auto;
     }
     .footer-about-us {
         flex: 1.6;
     }
     .footer-contact {
         flex: 1.8;
+    }
+    /* Employment */
+    .requirements {
+        width: 920px;
+    }
+    .requirement-details {
+        width: 920px;
+    }
+    .company-drivers, .lease-drivers {
+        width: 400px;  
+    }
+    .employment-form {
+        width: 920px;
+    }
+    #file {
+        width: 450px;
+    }
+    #app-textarea {
+        width: 440px;
     }
 }
 
@@ -1201,6 +1247,7 @@ label span {
         position: relative;
         left: -30px;
     }
+
     .landing-page {
         height: 86vh;
     }
@@ -1393,6 +1440,77 @@ label span {
         width: 80%;
         margin-bottom: 30px;
     }
+    /* EMPLOYMENT */
+    .employ-l-page-content {
+        left: 29vw;
+        top: 37vh;
+    }
+    .employ-l-page-content h2 {
+        width: 330px;
+        font-size: 70px;
+    }
+    .requirements {
+        width: 720px;
+        flex-wrap: wrap;
+    }
+    .requirements p {
+        width: 310px;
+    }
+
+    .requirement-details {
+        width: 720px;
+    }
+    .company-drivers, .lease-drivers {
+        width: 330px;
+    }
+    .employment-application {
+        height: 1340px;
+    }
+    .employment-form {
+        width: 720px;
+        height: 1340px;
+    }
+    #select {
+        width: 500px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .form-row {
+        flex-direction: column;
+        width: 500px;
+        margin: auto;
+    }
+    .employment-form input {
+        width: 500px;
+    }
+    #state-zip {
+        width: 500px;
+    }
+    #state {
+        width: 280px;
+    }
+    #zip {
+        width: 190px;
+    }
+    #expiration-ssn {
+        width: 500px;
+    }
+    #expiration {
+        width: 280px;
+    }
+    #ssn {
+        width: 190px;
+    }
+    #file {
+        width: 500px;
+    }
+    #app-textarea {
+        width: 500px;
+    }
+    .submit {
+        width:500px;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 767.98px) { 
@@ -1573,6 +1691,100 @@ label span {
     .offcanvas-header img {
         width: 170px;
     }
+    /* EMPLOYMENT */
+    .employ-l-page-content {
+        left: 21vw;
+        top: 37vh;
+        width: 330px;
+    }
+    .employ-l-page-content h2 {
+        width: 330px;
+        text-align: center;
+        font-size: 70px;
+    }
+    .employ-heading {
+        width: 520px;
+    }
+    .employ-section-title {
+        font-size: 28px;
+    }
+    .employ-sub-title {
+        font-size: 15px;
+    }
+    .requirements {
+        width: 530px;
+        flex-wrap: wrap;
+    }
+    .requirements p {
+        width: 210px;
+        font-size: 16px;
+    }
+    .requirements p:nth-child(3) {
+        width: 290px;
+    }
+
+    .requirement-details {
+        width: 520px;
+        flex-direction: column;
+    }
+    .company-drivers, .lease-drivers {
+        width: 430px;
+        margin: auto;
+    }
+    .employment-application {
+        height: 1340px;
+    }
+    .employment-form {
+        width: 520px;
+        height: 1340px;
+    }
+    .application-title {
+        font-size: 35px;
+    }
+    #select {
+        width: 400px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .form-row {
+        flex-direction: column;
+        width: 400px;
+        margin: auto;
+    }
+    .employment-form input {
+        width: 400px;
+    }
+    #state-zip {
+        width: 400px;
+    }
+    #state {
+        width: 200px;
+    }
+    #zip {
+        width: 170px;
+    }
+    #expiration-ssn {
+        width: 400px;
+    }
+    #expiration {
+        width: 200px;
+    }
+    #ssn {
+        width: 170px;
+    }
+    #file {
+        width: 400px;
+    }
+    #app-textarea {
+        width: 400px;
+    }
+    .submit {
+        width:400px;
+        margin: auto;
+    }
+    #submit {
+        margin-top: 10px;
+    }
 }
 
  @media screen and (max-width: 575.98px) { 
@@ -1588,6 +1800,7 @@ label span {
         color: #333;
         margin-left: -30px;
     }
+
     .custom-color-1, .custom-color-2, .custom-color-3, .custom-color-4 {
         color: #333;
         margin-left: -30px;
@@ -1759,6 +1972,103 @@ label span {
 
     }
 
+    /* EMPLOYMENT */
+    .employ-l-page-content {
+        left: 9vw;
+        top: 37vh;
+        width: 330px;
+    }
+    .employ-l-page-content h2 {
+        width: 330px;
+        text-align: center;
+        font-size: 70px;
+    }
+    .employ-heading {
+        width: 340px;
+    }
+    .employ-section-title {
+        font-size: 25px;
+    }
+    .employ-sub-title {
+        font-size: 15px;
+    }
+    .requirements {
+        width: 340px;
+        flex-wrap: wrap;
+    }
+    .requirements p {
+        width: 210px;
+        font-size: 16px;
+    }
+    .requirements p:nth-child(3) {
+        width: 290px;
+    }
+
+    .requirement-details {
+        width: 340px;
+        flex-direction: column;
+    }
+    .company-drivers, .lease-drivers {
+        width: 340px;
+        margin: auto;
+    }
+    .employment-application {
+        height: 1370px;
+    }
+    .employment-form {
+        width: 340px;
+        height: 1370px;
+    }
+    .application-title {
+        font-size: 27px;
+    }
+    #select {
+        width: 340px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .form-row {
+        flex-direction: column;
+        width: 340px;
+        margin: auto;
+    }
+    .employment-form input {
+        width: 340px;
+    }
+    #state-zip {
+        width: 340px;
+    }
+    #state {
+        width: 180px;
+    }
+    #zip {
+        width: 140px;
+    }
+    #cdl {
+        width: 340px;
+    }
+    #expiration-ssn {
+        width: 340px;
+    }
+    #expiration {
+        width: 170px;
+    }
+    #ssn {
+        width: 140px;
+    }
+    #file {
+        width: 340px;
+    }
+    #app-textarea {
+        width: 340px;
+    }
+    .submit {
+        width:340px;
+        margin: auto;
+    }
+    #submit {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 410px) { 
@@ -1936,3 +2246,5 @@ label span {
     }
 
 }
+
+/* EMPLOYMENT RESPONSIVE */
