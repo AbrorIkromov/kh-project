@@ -1,5 +1,8 @@
 // Navbar
 
+    let screenWidth = $(window).width()
+    console.log(screenWidth)
+    if (screenWidth > 991.97) {
     $(window).scroll(function () { 
         if($(document).scrollTop() > 80){
             $('.custom-color-1').removeAttr('id','none')
@@ -16,6 +19,12 @@
             $('.nav-target').removeClass('fixed-top navbar-light bg-light')
         }
     });
+} else {
+    $(window).scroll(function () {
+        return;
+    })
+    $('.nav-target').addClass('fixed-top navbar-light bg-light')
+}
 
     // OWL 
 $('.owl-carousel').owlCarousel({
