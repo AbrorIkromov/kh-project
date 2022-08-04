@@ -1238,6 +1238,10 @@ label span {
         flex: 1.8;
     }
     /* Employment */
+    .employ-l-page-content {
+        left: 29vw;
+        top: 35vh;
+    }
     .requirements {
         width: 920px;
     }
@@ -1471,7 +1475,7 @@ label span {
     }
     /* EMPLOYMENT */
     .employ-l-page-content {
-        left: 29vw;
+        left: 30vw;
         top: 37vh;
     }
     .employ-l-page-content h2 {
@@ -1726,7 +1730,7 @@ label span {
     }
     /* EMPLOYMENT */
     .employ-l-page-content {
-        left: 21vw;
+        left: 23vw;
         top: 37vh;
         width: 330px;
     }
@@ -2007,7 +2011,7 @@ label span {
 
     /* EMPLOYMENT */
     .employ-l-page-content {
-        left: 9vw;
+        left: 13vw;
         top: 37vh;
         width: 330px;
     }
@@ -2121,22 +2125,31 @@ label span {
     .btn-apply-nav {
         margin-left: -30px;
     }
+    .offcanvas-header img {
+        width: 150px;
+    }
     .l-page-content {
         top: 25vh;
         left: 12vw;
+        width: 250px;
     }
     .landing-page h2 {
-        width: 300px;
-        font-size: 45px;
+        width: 250px;
+        font-size: 35px;
         margin-bottom: 0;
         height: 180px;
     }
+    .decor {
+        width: 210px;
+        top: -60px;
+    }
     .btn-apply {
         padding: 10px 20px;
-        font-size: 18px;
+        font-size: 16px;
+
     }
     .welcome {
-        width: 340px;
+        width: 300px;
         height: 1000px;
     }
     .welcome-img {
@@ -2154,13 +2167,17 @@ label span {
         margin-bottom: 50px;
     }
     .section-title-try {
-        width: 300px;
+        width: 280px;
         margin-left: 15px;
         margin-top: -20px;
         font-size: 28px;
     }
+
+    #service-title {
+        width: 260px;
+    }
     .addition-to-welcome {
-        width: 340px;
+        width: 300px;
         height: 800px;
         margin: auto;
         margin-top: 0px;
@@ -2175,18 +2192,18 @@ label span {
         width: 250px;
     }
     .mission-container {
-        width: 340px;
+        width: 300px;
         height: 900px;
         margin-bottom: 80px;
     }
     #services-title {
-        width: 300px;
+        width: 280px;
         margin-top: 60px;
         margin-left: 15px;
         font-size: 28px;
     }
     .services-container {
-        width: 340px;
+        width: 300px;
         height: 1750px;
     }
     .card-container {
@@ -2217,7 +2234,7 @@ label span {
         margin-left: 0px;
     }
     .about-us-container {
-        width: 340px;
+        width: 300px;
     }
     .about-us-img {
         margin-left: 0;
@@ -2252,17 +2269,17 @@ label span {
     .owl-title {
         font-size: 28px;
         margin-top: 90px;
-        width: 340px;
+        width: 300px;
     }
     #owl-width {
-        width: 350px;
+        width: 300px;
         padding-left: 10px;
     }
     .footer {
         height: 1090px;
     }
     .footer-container {
-        width: 340px;
+        width: 300px;
         height: 1070px;
     }
     .links {
@@ -2277,7 +2294,117 @@ label span {
         height: 25%;
 
     }
+    /* EMPLOYMENT RESPONSIVE */
+    .employ-l-page-content {
+        left:6vw;
+        width: 300px;
+    }
+
+    .employ-l-page-content h2 {
+        font-size: 60px;
+        width: 254px;
+    }
+    .employ-heading {
+        width: 300px;
+    }
+    .nav-item {
+        width: 160px;
+    }
+    .btn-apply-nav {
+       font-size: 15px;
+    }
+    .btn-apply {
+        top: -40px;
+    }
+    .employ-section-title {
+        font-size: 25px;
+    }
+    .employ-sub-title {
+        font-size: 15px;
+    }
+    .requirements {
+        width: 300px;
+        flex-wrap: wrap;
+    }
+    .requirements p {
+        width: 210px;
+        font-size: 16px;
+    }
+    .requirements p:nth-child(3) {
+        width: 290px;
+    }
+
+    .requirement-details {
+        width: 300px;
+        flex-direction: column;
+    }
+    .company-drivers, .lease-drivers {
+        width: 300px;
+        margin: auto;
+    }
+    .employment-application {
+        height: 1370px;
+    }
+    .employment-form {
+        width: 300px;
+        height: 1370px;
+    }
+    .application-title {
+        font-size: 27px;
+    }
+    #select {
+        width: 300px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .form-row {
+        flex-direction: column;
+        width: 300px;
+        margin: auto;
+    }
+    .employment-form input {
+        width: 300px;
+    }
+    #state-zip {
+        width: 300px;
+    }
+    #state {
+        width: 160px;
+    }
+    #zip {
+        width: 130px;
+    }
+    #cdl {
+        width: 300px;
+    }
+    #expiration-ssn {
+        width: 300px;
+    }
+    #expiration {
+        width: 160px;
+    }
+    #ssn {
+        width: 130px;
+    }
+    #file {
+        width: 300px;
+    }
+    #app-textarea {
+        width: 300px;
+    }
+    .submit {
+        width:300px;
+        margin: auto;
+    }
+    #submit {
+        margin-top: 10px;
+    }
+
+    .footer-container {
+        width: 300px;
+    }
+    .footer-text {
+        width: 280px;
+    }
 
 }
-
-/* EMPLOYMENT RESPONSIVE */
