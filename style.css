@@ -1995,6 +1995,7 @@ label span {
     .footer-container {
         width: 400px;
         height: 1010px;
+        padding-left: 10px;
     }
     .links {
         margin-top: 20px;
@@ -2156,6 +2157,7 @@ label span {
         margin-top: -150px;
         height: 500px;
         margin-bottom: 50px;
+        width: 350px;
     }
     .section-title-try {
         width: 300px;
@@ -2282,6 +2284,10 @@ label span {
 
     }
 
+    .employ-l-page-content {
+        left: 7vw;
+        top: 39vh;
+    }
 }
 
 @media screen and (max-width: 330px) { 
