@@ -2125,6 +2125,182 @@ label span {
     .btn-apply-nav {
         margin-left: -30px;
     }
+    .l-page-content {
+        top: 25vh;
+        left: 12vw;
+    }
+    .landing-page h2 {
+        width: 300px;
+        font-size: 45px;
+        margin-bottom: 0;
+        height: 180px;
+    }
+    .btn-apply {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .welcome {
+        width: 340px;
+        height: 1000px;
+    }
+    .welcome-img {
+        height: 350px;
+        position: relative;
+        top: -150px;
+    }
+    .welcome-img img {
+        height: 100%;
+        /* margin-top: -200px; */
+    }
+    .welcome-text {
+        margin-top: -150px;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    .section-title-try {
+        width: 300px;
+        margin-left: 15px;
+        margin-top: -20px;
+        font-size: 28px;
+    }
+    .addition-to-welcome {
+        width: 340px;
+        height: 800px;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 80px;
+    }
+    .box {
+        width: 300px;
+        margin: 10px auto;
+        box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 24px;
+    }
+    .add-to-wel-title, .add-to-wel-text, .heading-img {
+        width: 250px;
+    }
+    .mission-container {
+        width: 340px;
+        height: 900px;
+        margin-bottom: 80px;
+    }
+    #services-title {
+        width: 300px;
+        margin-top: 60px;
+        margin-left: 15px;
+        font-size: 28px;
+    }
+    .services-container {
+        width: 340px;
+        height: 1750px;
+    }
+    .card-container {
+        flex-wrap: wrap;
+    }
+    .card-img-1 {
+        height: 370px;
+        width: 300px;
+    }
+    .card-img-2 {
+        height: 370px;
+        width: 300px;
+        margin-top: 40px;
+    }
+    .card-img-3 {
+        height: 370px;
+        width: 300px;
+        margin-top: 30px;
+    }
+    .card-img-4 {
+        height: 370px;
+        width: 300px;
+        margin-top: 30px;
+    }
+    .card:hover .card-content {
+        width: 100%;
+        height: 215px;
+        margin-left: 0px;
+    }
+    .about-us-container {
+        width: 340px;
+    }
+    .about-us-img {
+        margin-left: 0;
+    }
+    .faq-and-form-container {
+        width: 310px;
+        height: 1100px;
+
+    }
+    .section-title {
+        font-size: 28px;
+    }
+    .form .section-title {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .line-1 {
+        flex-direction: column;
+    }
+    #name {
+        display: block;
+        width: 302px;
+        margin-bottom: 20px;
+    }
+    #email {
+        display: block;
+        width: 302px;
+    }
+    .line-2 {
+        margin-bottom: 3px;
+    }
+    .owl-title {
+        font-size: 28px;
+        margin-top: 90px;
+        width: 340px;
+    }
+    #owl-width {
+        width: 350px;
+        padding-left: 10px;
+    }
+    .footer {
+        height: 1090px;
+    }
+    .footer-container {
+        width: 340px;
+        height: 1070px;
+    }
+    .links {
+        margin-top: 20px;
+    }
+    .footer-contact {
+        margin-top: 20px;
+    }
+    .media {
+        left: 0;
+        top: 0;
+        height: 25%;
+
+    }
+
+}
+
+@media screen and (max-width: 330px) { 
+    .offcanvas-header {
+        height: 70px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    #custom-color {
+        color: #333;
+        margin-left: -30px;
+    }
+    .custom-color-1, .custom-color-2, .custom-color-3, .custom-color-4 {
+        color: #333;
+        margin-left: -30px;
+    }
+    .btn-apply-nav {
+        margin-left: -30px;
+    }
     .offcanvas-header img {
         width: 150px;
     }
