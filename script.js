@@ -36,7 +36,7 @@ $(document).ready(function () {
 
     let scene5 = new ScrollMagic.Scene({
         triggerElement: '#scroll-5', 
-        triggerHook: 1
+        triggerHook: 1.2
     })
     .setClassToggle('#scroll-5', 'scroll-5')
     .reverse(true)
@@ -60,7 +60,7 @@ $(document).ready(function () {
 
     let scene8 = new ScrollMagic.Scene({
         triggerElement: '#about-us', 
-        triggerHook: 0.7
+        triggerHook: 0.9
     })
     .setClassToggle('#about-us', 'scroll-8')
     .reverse(true)
