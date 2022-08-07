@@ -1,34 +1,72 @@
-// Navbar
+// SCROLLMAGIC
+$(document).ready(function () {
 
-    let screenWidth = $(window).width()
-    console.log(screenWidth)
-    if (screenWidth > 991.97) {
-    $(window).scroll(function () { 
-        // if($(document).scrollTop() > 80){
-        //     $('.custom-color-1').removeAttr('id','none')
-        //     $('.custom-color-2').removeAttr('id','none')
-        //     $('.custom-color-3').removeAttr('id','none')
-        //     $('.custom-color-4').removeAttr('id','none')
-        //     $('.nav-target').addClass('fixed-top navbar-light bg-light');
-        //     $('#nav-logo').css('visibility', 'visible')
-        // }
-        // else{
-        //     $('.custom-color-1').attr('id','custom-color')
-        //     $('.custom-color-2').attr('id','custom-color')
-        //     $('.custom-color-3').attr('id','custom-color')
-        //     $('.custom-color-4').attr('id','custom-color')
-        //     $('.nav-target').removeClass('fixed-top navbar-light bg-light')
-        //     $('#nav-logo').css('visibility', 'visible')
-        // }
-    });
-} else {
-    // $(window).scroll(function () {
-    //     return;
-    // })
-    // $('.nav-target').addClass('fixed-top navbar-light bg-light');
-    // $('#nav-logo').css('visibility', 'visible')
-}
+    let controller = new ScrollMagic.Controller();
+    let scene1 = new ScrollMagic.Scene({
+        triggerElement: '#welcome-title', 
+        triggerHook: 0.8
+    })
+    .setClassToggle('#welcome-title', 'scroll-1')
+    .reverse(true)
+    .addTo(controller);
 
+    let scene2 = new ScrollMagic.Scene({
+        triggerElement: '#welcome-title', 
+        triggerHook: 0.6
+    })
+    .setClassToggle('#scroll-2', 'scroll-2')
+    .reverse(true)
+    .addTo(controller);
+
+    let scene3 = new ScrollMagic.Scene({
+        triggerElement: '#scroll-3', 
+        triggerHook: 0.7
+    })
+    .setClassToggle('#scroll-3', 'scroll-3')
+    .reverse(true)
+    .addTo(controller);
+
+    let scene4 = new ScrollMagic.Scene({
+        triggerElement: '#scroll-4', 
+        triggerHook: 0.7
+    })
+    .setClassToggle('#scroll-4', 'scroll-4')
+    .reverse(true)
+    .addTo(controller);
+
+    let scene5 = new ScrollMagic.Scene({
+        triggerElement: '#scroll-5', 
+        triggerHook: 1
+    })
+    .setClassToggle('#scroll-5', 'scroll-5')
+    .reverse(true)
+    .addTo(controller);
+
+    let scene6 = new ScrollMagic.Scene({
+        triggerElement: '#scroll-6', 
+        triggerHook: 0.7
+    })
+    .setClassToggle('#scroll-6', 'scroll-6')
+    .reverse(true)
+    .addTo(controller);
+
+    let scene7 = new ScrollMagic.Scene({
+        triggerElement: '#scroll-7', 
+        triggerHook: 0.7
+    })
+    .setClassToggle('#scroll-7', 'scroll-7')
+    .reverse(true)
+    .addTo(controller);
+
+    let scene8 = new ScrollMagic.Scene({
+        triggerElement: '#about-us', 
+        triggerHook: 0.7
+    })
+    .setClassToggle('#about-us', 'scroll-8')
+    .reverse(true)
+    .addTo(controller);
+
+});
     // OWL 
 $('.owl-carousel').owlCarousel({
     loop:true,
